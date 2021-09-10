@@ -174,3 +174,7 @@ body{
 }
 
 /* #828384 */
+
+.align-self-center {
+  align-self: center;
+}
