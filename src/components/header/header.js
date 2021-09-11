@@ -38,13 +38,13 @@ function Header(props) {
             
 
               <div className="text-lg p-3">
-                <label><a href="https://discord.gg/czCeeeEnjr" >Discord</a></label>
+                <label><a href="https://discord.gg/czCeeeEnjr">Discord</a></label>
               </div>
               <div className="text-lg p-3">
-                <label><a href="https://twitter.com/StallDesi" ></a> Twitter</label>
+                <label><a href="https://twitter.com/StallDesi">Twitter</a></label>
               </div>
               <div className="text-lg p-3">
-                <label>Roadmap</label>
+                <label onClick={() => document.getElementById('roadmap').scrollIntoView({behavior: 'smooth'})}>Roadmap</label>
               </div>
               <div className="text-lg p-3">
                 <img src={props.mode ? sun : moon} alt="visual mode" onClick={props.changeMode}/>

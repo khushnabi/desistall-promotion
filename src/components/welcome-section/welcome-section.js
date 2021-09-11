@@ -18,7 +18,7 @@ function WelcomeSection() {
             Desi Sol community on the ethereum blockchain.
           </p>
           <p className="text-lg mt-3">
-            Become a part 10,000 strong community by getting your very 
+            Become a part 999 strong community by getting your very 
             own Desi Sol.
           </p>
         </div>

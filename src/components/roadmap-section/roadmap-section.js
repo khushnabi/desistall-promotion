@@ -6,7 +6,7 @@ import roadmap from '../../images/roadmap.svg';
 
 function RoadmapSection() {
   return (
-    <div className="w-full roadmap-section pb-8">
+    <div className="w-full roadmap-section pb-8" id="roadmap">
       <div className="py-16">
       <p className="container w-3/4 mx-auto  text-5xl font-semibold leading-tight ">
           Roadmap
@@ -45,7 +45,7 @@ function RoadmapSection() {
                 </div>
                 <div>
                     <p className="troadmap-percentage-text">
-                    we airdrop 10 Rare Desi punks to random Desi Sol holders
+                    we airdrop 10 Rare Desi punks to random Desi SOL holders
                     </p>
                 </div>
             </div>
@@ -98,7 +98,7 @@ function RoadmapSection() {
                 </div>
                 <div>
                     <p className="troadmap-percentage-text">
-                    Desi Stall will donate 10ETH to both Smile Foundation India <br /> and NoKidHunger
+                    Desi Stall will donate 25 SOL to both Smile Foundation India <br /> and NoKidHunger
                     </p>
                 </div>
             </div>
