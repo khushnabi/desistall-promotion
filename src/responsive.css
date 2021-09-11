@@ -32,23 +32,16 @@
     margin-top: 12px;
 }
 
-.responsive-timer .counter-block:before {
-    transform: translate(49px, -50%);
-    width: 6px;
-    height: 24px;
-}
-
 .responsive-timer .counter-block:after {
     width: 6px;
     height: 24px;
 }
 
 .responsive-timer-text {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    font-size: 16px;
-    margin-top: -9px;
+    top: 60px;
+    font-size: 16px !important;
+    margin: 0 !important;
+    text-align: center !important;
 }
 
 .responsive-timer .counter-block {
@@ -73,3 +66,4 @@ img, video {
     padding-bottom: 0rem;
 }
   }
+  

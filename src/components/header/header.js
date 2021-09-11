@@ -8,14 +8,12 @@ function Header(props) {
 
   const [menuClass, setMenuClass] = useState(false);
 
-  var menuChange =()=> {
-    if(menuClass == true) {
+  const menuChange = () => {
+    if(menuClass) {
       setMenuClass(false)
     }else {
       setMenuClass(true)
-
     }
-
   }
 
   useEffect(() => {
@@ -40,10 +38,10 @@ function Header(props) {
             
 
               <div className="text-lg p-3">
-                <label>Discord</label>
+                <label><a href="https://discord.gg/czCeeeEnjr" >Discord</a></label>
               </div>
               <div className="text-lg p-3">
-                <label>Twitter</label>
+                <label><a href="https://twitter.com/StallDesi" ></a> Twitter</label>
               </div>
               <div className="text-lg p-3">
                 <label>Roadmap</label>

@@ -6,61 +6,103 @@ import roadmap from '../../images/roadmap.svg';
 
 function RoadmapSection() {
   return (
-    <div className="w-full roadmap-section">
-      <p className="container w-3/4 mx-auto py-16 text-5xl font-semibold leading-tight mb-6">
+    <div className="w-full roadmap-section pb-8">
+      <div className="py-16">
+      <p className="container w-3/4 mx-auto  text-5xl font-semibold leading-tight ">
           Roadmap
       </p>
+      <div className="small-space"></div> 
+      <p className="container w-3/4 mx-auto leading-tight ">
+      We are in for an adventure.
+      </p>
+      <div className="small-space"></div> 
+      <p className="container w-3/4 mx-auto leading-tight ">
+      We have set up some dares for ourselves. Once we hit those through <br /> percentage, we will begin to achieve our stated dares
+
+      </p>
+      </div>
     
       <div className="container w-3/4 mx-auto my-auto flex justify-between">
-        <div className="w-1/2 py-16">
+        <div className="w-1/2">
             <div className="flex my-8">
                 <div className="mr-8">
-                    <img src={featureIcon1} alt="Feature Icon 1"/>
+                    <div className="roadmap-percentage">
+                        10%
+                    </div>
+                    {/* <img  alt="Feature Icon 1"/> */}
                 </div>
                 <div>
-                    <p className="text-base font-semibold mb-4">Headline</p>
-                    <p className="text-lg mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    <br/>Interdum porta magna at blandit a.
+                    <p className=" troadmap-percentage-text">
+                    We throw a party to our friends
                     </p>
                 </div>
             </div>
             <div className="flex my-8">
                 <div className="mr-8">
-                    <img src={featureIcon2} alt="Feature Icon 1"/>
+                <div className="roadmap-percentage">
+                        20%
+                    </div>
                 </div>
                 <div>
-                    <p className="text-base font-semibold mb-4">Headline</p>
-                    <p className="text-lg mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    <br/>Interdum porta magna at blandit a.
+                    <p className="troadmap-percentage-text">
+                    we airdrop 10 Rare Desi punks to random Desi Sol holders
                     </p>
                 </div>
             </div>
+           
             <div className="flex my-8">
                 <div className="mr-8">
-                    <img src={featureIcon3} alt="Feature Icon 1"/>
+                <div className="roadmap-percentage">
+                        40%
+                    </div>
                 </div>
                 <div>
-                    <p className="text-base font-semibold mb-4">Headline</p>
-                    <p className="text-lg mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    <br/>Interdum porta magna at blandit a.
+                    <p className="troadmap-percentage-text">
+                    We create the member exclusive discord server
                     </p>
                 </div>
             </div>
+
             <div className="flex my-8">
                 <div className="mr-8">
-                    <img src={featureIcon4} alt="Feature Icon 1"/>
+                <div className="roadmap-percentage">
+                        60%
+                    </div>
                 </div>
                 <div>
-                    <p className="text-base font-semibold mb-4">Headline</p>
-                    <p className="text-lg mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    <br/>Interdum porta magna at blandit a.
+                    <p className="troadmap-percentage-text">
+                    we lauch a Member-Exclusive Desi Sol Merch Store, featuring Limited <br /> Edition tees, hoodies and other goodies.
                     </p>
                 </div>
             </div>
+
+            <div className="flex my-8">
+                <div className="mr-8">
+                <div className="roadmap-percentage">
+                        80%
+                    </div>
+                </div>
+                <div>
+                    <p className="troadmap-percentage-text">
+                    We drop Desi Little Ones collection (nft breeding)
+                    </p>
+                </div>
+            </div>
+
+
+            <div className="flex my-8">
+                <div className="mr-8">
+                <div className="roadmap-percentage">
+                100% 
+                    </div>
+                </div>
+                <div>
+                    <p className="troadmap-percentage-text">
+                    Desi Stall will donate 10ETH to both Smile Foundation India <br /> and NoKidHunger
+                    </p>
+                </div>
+            </div>
+
         </div>
         <div className="w-1/2 pl-24">
             <img src={roadmap} alt="Road-map"/>

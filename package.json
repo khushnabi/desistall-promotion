@@ -1,7 +1,7 @@
 {
   "name": "desistall-promotion",
   "version": "0.1.0",
-  "homepage": "https://mankhedekar96.github.io/desistall-promotion/",
+  "homepage": "https://khushnabi.github.io/desistall-promotion",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
